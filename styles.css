@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    color: #59545d;
+    background-color: #fef9ff;
+    
+}
+body{
+    margin: 0;
+}
+.main-section code ul li, nav ul li{
+    list-style-type: none;
+}
+nav{
+    width: 30vw;
+    font-family: inter;
+}
+nav ul{
+   padding: 0;
+   margin: 0;
+}
+nav header{
+    padding: 10px 20px;
+    overflow-wrap:break-word;
+    
+}
+nav ul li{
+    box-sizing: content-box;
+   
+}
+nav ul li a{
+    text-decoration: none;   
+    display: block;
+    padding: 30px 0;
+    text-indent: 20px;
+}
+nav ul li a:hover{
+    background-color: #d3b4dc;
+}
+
+header{
+    font-size: 2.5em;
+}
+body{
+    font-size: 1.2em;
+}
+.main-section p, .main-section header{
+    padding:10px 30px;
+    margin: 10px;
+    font-family: inter;
+}
+.main-section ul li{
+    padding: 5px 10px;
+}
+.main-section ul{
+    padding:0 80px;
+}
+.main-section code ul{
+    padding: 0 40px;
+    margin:0;
+}
+.main-section code p{
+    margin:0;
+    padding: 0 40px;
+}
+.main-section code ul li{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+code{
+    background-color: #d3b4dc;
+    display: block;
+    margin: 0 30px;
+    padding: 20px;
+}
+code ul{
+   background-color: #d3b4dc;
+   box-sizing: content-box;
+  
+}
+code ul li {
+    background-color: #d3b4dc;  
+}
+#uses ul li, #data_types ul li{
+    font-family: inter;
+}
+#main-doc{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:480px){
+    header{
+        font-size: 1.2em;
+    }
+    body{
+        font-size: 1em;
+    }
+    nav ul li a{
+        padding: 10px 5px;
+    }
+    nav header{
+        padding: 5px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    header{
+        font-size: 1.3em;
+    }
+    body{
+        font-size: 1em;
+    }
+    nav ul li a{
+        padding: 15px 5px;
+    }
+    nav header{
+        padding: 5px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    header{
+        font-size: 1.3em;
+    }
+    body{
+        font-size: 1.1em;
+    }
+    nav ul li a{
+        padding: 15px 5px;
+    }
+    nav header{
+        padding: 10px;
+    }
+}

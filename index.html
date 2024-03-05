@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Technical Documetation Page Project - v_t_9 - freeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar" >
+            <header>Python Documentation</header>
+            <ul>
+                <li><a class ="nav-link" href="#introduction">Introduction</a></li>
+                <li><a class ="nav-link" href="#uses">Uses</a></li>
+                <li><a class ="nav-link" href="#prerequisites_and_installation">Prerequisites and installation</a></li>
+                <li><a class ="nav-link" href="#get_started">Get Started</a></li>
+                <li><a class ="nav-link" href="#variables">Variables</a></li>
+                <li><a class ="nav-link" href="#data_types">Data types</a></li>
+                <li><a class ="nav-link" href="#if">If</a></li>
+                <li><a class ="nav-link" href="#for">For</a></li>
+                <li><a class ="nav-link" href="#while">While</a></li>
+                <li><a class ="nav-link" href="#references">References</a></li>
+            </ul>
+
+        </nav>
+        <section class="subsections">
+            <section class="main-section" id="introduction">
+                <header>Introduction</header>
+                <p>Created by Guido van Rossum, Python is one of the most popular programming languages.</p>
+                <p>It works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc), it similarities with English makes it easy to read and, it uses indentation to define scope.</p>
+            </section>
+            <section class="main-section" id="uses">
+                <header>Uses</header>
+                <p>Python can be used:</p>
+                <ul>
+                    <li>on a server to create web applications.</li>
+                    <li>alongside software to create workflows.</li>
+                    <li>to connect to database systems. It can also read and modify files.</li>
+                    <li> to handle big data and perform complex mathematics.</li>
+                    <li>for rapid prototyping, or for production-ready software development.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="prerequisites_and_installation">
+                <header>Prerequisites and installation</header>
+                <p>
+                    To start with is recommended to have an IDE (integrated development environment) like Visual Studio Code already installed.
+                </p>
+                <p>You can download python from here: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+            </section>
+            <section class="main-section" id="get_started">
+                <header>Get started</header>
+                <p>
+                    To write your first python program open your IDE and create a new file with the name "helloworld.py".
+                    Then write:
+                </p>
+                <code>
+                    print("Hello World!")
+                </code>
+                <p>
+                    This should print the string in the console.
+                </p>
+            </section>
+            <section class="main-section" id="variables">
+                <header>Variables</header>
+                <p>In python a variable is created when you assign a value to it:</p>
+                <code>b = "Pyhton"</code>
+                <p>Python allows you to assign values to multiple variables in one line:</p>
+                <code>x, y, z = 1, 20, 15</code>
+            </section>
+            <section class="main-section" id="data_types">
+                <header>Data types</header>
+                <p>Python data types are:</p>
+                <ul>
+                    <li>Text: str</li>
+                    <li>Numeric: int, float</li>
+                    <li>Sequence: list, tuples</li>
+                    <li>Mapping: dict</li>
+                    <li>Set: set, frozenset</li>
+                    <li>Boolean: bool</li>
+                    <li>Binary: bytes, bytearray, memoryview</li>
+                </ul>
+            </section>
+            <section class="main-section" id="if">
+                <header>If</header>
+                <p>If is a keyword for a condition statement.</p>
+                <code>
+                    if n > 5:
+                    <ul>
+                        <li>print(n)</li>
+                    </ul>
+                </code>
+                <p>It can be added an else statement for when the condition is false:</p>
+                <code>
+                    if n >= 5:
+                    <ul>
+                        <li>print(n)</li>
+                    </ul>
+                    else:
+                    <ul>
+                        <li>
+                            print("The number is less than 5")
+                        </li>
+                    </ul>
+                   
+                </code>
+            </section>
+            <section class="main-section" id="for">
+                <header>For</header>
+                <p>A for loop is used for iterating over a sequence.</p>
+                <code>
+                    list = [1,2,3,4]
+                </code>
+                <br>
+                <br>
+                <code>
+                    for i in range(len(list)):
+                    <ul>
+                        <li>print(l[i])</li>
+                    </ul>
+                </code>
+                <p>The loop can also be done like this:</p>
+                <code>
+                    for i in list:
+                    <ul>
+                        <li>print(i)</li>
+                    </ul>
+                </code>
+               
+            </section>
+            <section class="main-section" id="while">
+                <header>While</header>
+                <p>The while loop executes a statement as long as it is true.</p>
+                <code>
+                    n = 1
+                    <br>
+                   while n < 5:
+                    <ul>
+                        <li>print(n)</li>
+                        <li>n+=1</li>
+                    </ul>
+                </code>
+            </section>
+            <section class="main-section" id="references">
+                <header>References</header>
+                <p>Information for this page was taken from: <a href="https://www.w3schools.com/python/default.asp">w3schools</a></p>
+                
+            </section>
+        </section>
+        
+    
+    </main>
+</body>
+</html>
